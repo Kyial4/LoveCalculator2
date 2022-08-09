@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.HomeFragment"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_margin="16dp"
+        android:id="@+id/firstNameED"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="first name"/>
+
+    <EditText
+        android:layout_margin="16dp"
+        android:id="@+id/secondNameED"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="second name" />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_margin="16dp"
+        app:cornerRadius="16dp"
+        android:backgroundTint="@color/red"
+        android:id="@+id/okBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ok"
+        android:textSize="20sp"/>
+
+</LinearLayout>
